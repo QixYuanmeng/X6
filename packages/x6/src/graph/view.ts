@@ -297,7 +297,7 @@ export class GraphView extends View {
       this.onClick(ev)
     }
 
-    e.stopImmediatePropagation()
+    // e.stopImmediatePropagation()
 
     this.delegateEvents()
   }
